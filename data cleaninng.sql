@@ -58,3 +58,27 @@ update startup_funding set Amount_in_USD=REPLACE(Amount_in_USD,'\\xc2\\xa0','')
 go
 
 update startup_funding set Amount_in_USD=NULL WHERE Amount_in_USD='undisclosed'
+go
+
+--STARTUP NAME
+update dbo.startup_funding
+set Startup_Name = 'BetterButter'
+where Startup_Name = 'BetterButter.in'
+go
+
+update dbo.startup_funding
+set Startup_Name = 'Wealth Bucket'
+where Startup_Name = 'https://www.wealthbucket.in/'
+go
+
+select Startup_Name from dbo.startup_funding where Startup_Name like '%.in';
+go
+
+update startup_funding set Startup_Name=REPLACE(Startup_Name,'.in','')
+go
+
+select Startup_Name from dbo.startup_funding where Startup_Name like '%.com';
+go
+
+update startup_funding set Startup_Name=REPLACE(Startup_Name,'.com','')
+go
