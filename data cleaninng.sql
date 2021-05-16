@@ -24,7 +24,7 @@ go
 
 --SUB-VERTICAL
 SELECT DISTINCT SubVertical FROM startup_funding
-go
+GO
 
 update startup_funding set SubVertical=REPLACE(SubVertical,'\\','')
 
