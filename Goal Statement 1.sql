@@ -7,3 +7,4 @@
   'San Francisco','San Jose','Santa Monica','Seattle/Banglore','SFO/Banglore','Singapore','Tulangan','USA','US')
   group by Investors_Name
   ORDER BY Total_Amount DESC
+  
