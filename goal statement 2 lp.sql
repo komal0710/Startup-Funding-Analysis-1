@@ -1,9 +1,9 @@
 select * from dbo.startup_funding;
 go
 
-select InvestmentnType, 
-count(InvestmentnType) as Total_Investment 
+select InvestmentType, 
+count(InvestmentType) as Total_Investment 
 from dbo.startup_funding 
-group by InvestmentnType 
+group by InvestmentType 
 order by Total_Investment desc;
 go
