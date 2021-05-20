@@ -8,6 +8,11 @@ Events like launch of Startup India initiative, US elections and the Indian bank
 ## Data Source
 Kaggle: [Indian Startup Funding](https://www.kaggle.com/sudalairajkumar/indian-startup-funding)
 
+## Technologies used
+* Programming Language: **T-SQL (SQL Server)**
+* Software used: **Microsoft SQL Server Management Studio 18**
+* Cloud: **Azure SQL Server**
+
 ## Scope of the Analysis
 The followings are the scope for this case study:
 
@@ -33,3 +38,10 @@ The followings are the scope for this case study:
 |Investement Type|Type of investment made by investor|
 |Amount in USD|Amount invested by investors in USD|
 |Remarks|Remarks given by the investors|
+
+## T-SQL functionalities used
+* SELECT, FROM, WHERE, GROUP BY & ORDER BY statements
+* ALTER statement
+* UPDATE statement
+* ALTER TABLE statement
+* Aggregate functions - SUM, COUNT, etc.
