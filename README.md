@@ -55,7 +55,3 @@ The followings are the scope for this case study:
   * Check for all names of investors and rename duplicates if any ('undisclosed investor' to 'Undisclosed Investors')
 
 
-## Contributors: 
-<a href="https://github.com/Rajiv-Nayan/Startup-Funding-Analysis/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Rajiv-Nayan/Startup-Funding-Analysis" />
-</a>
