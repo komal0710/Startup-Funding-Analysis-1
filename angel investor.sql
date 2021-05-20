@@ -13,8 +13,10 @@ SELECT TOP (1000) [Date_dd_mm_yyyy]
   where InvestmentType like 'Seed%' or InvestmentType like 'Angel%'
   group by Startup_Name,Investors_Name,InvestmentType
   order by Investors_Name desc
+  GO
 
   select top(3) Investors_Name,InvestmentType,count(Startup_Name) as Startup_InvestedIn from dbo.startup_funding
   group by Investors_Name,InvestmentType
   having InvestmentType like 'Seed%' or InvestmentType like 'Angel%'
   order by Startup_InvestedIn desc
+  GO
