@@ -15,3 +15,19 @@ The followings are the scope for this case study:
 * How funding has changed overtime
 * Angel Investors of India
 * Max and Min investment out of all start-ups in India
+
+## Dataset
+**The dataset consisted of a CSV file:**
+
+|Column|Description|
+|---|---|
+|Sr No|Unique Serial Nos.|
+|Date|Date of investment|
+|Startup Name|Name of the Startup Company|
+|Industry Vertical|Group of companies and customers that are all interconnected around a specific niche|
+|SubVertical|Nearly related to vertical but not quite vertical|
+|City Location|City of Startup Company|
+|Investor Name|Name of the Investor|
+|Investement Type|Type of investment made by investor|
+|Amount in USD|Amount invested by investors in USD|
+|Remarks|Remarks given by the investors|
