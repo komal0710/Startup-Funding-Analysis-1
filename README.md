@@ -44,7 +44,7 @@ The followings are the scope for this case study:
 * ALTER statement
 * UPDATE statement
 * ALTER TABLE statement
-* Aggregate functions - SUM, COUNT, etc.
+* Aggregate functions - SUM, COUNT, MAX, MIN etc.
 
 
 ## Methodology
