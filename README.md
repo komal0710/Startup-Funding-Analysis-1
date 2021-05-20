@@ -45,3 +45,11 @@ The followings are the scope for this case study:
 * UPDATE statement
 * ALTER TABLE statement
 * Aggregate functions - SUM, COUNT, etc.
+
+
+## Methodology
+* **Data Cleaning** ([Change datatypes & Data Cleaning](https://github.com/Rajiv-Nayan/Startup-Funding-Analysis/blob/main/data%20cleaninng.sql))
+  * Update columns with correct datatypes 
+  * Substitue for missing values in Startup Funding table
+  * Drop Sr No & Remarks column as it unnecessary and contains high number of missing values
+  * Check for all names of investors and rename duplicates if any ('undisclosed investor' to 'Undisclosed Investors')
