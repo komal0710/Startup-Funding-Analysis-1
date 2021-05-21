@@ -76,7 +76,7 @@ GO
 ```
 **YEARWISE**
 
-```
+``` JS
 SELECT YEAR(Date_yyyy_mm_dd) AS [Yearwise],  SUM(Amount_in_USD) AS Total_Amount 
 FROM startup_funding 
 GROUP BY YEAR(Date_yyyy_mm_dd) 
