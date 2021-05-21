@@ -7,7 +7,7 @@ Select  Industry_Vertical,
 
 		count(*) as Frequency
 		
-from [dbo].[startup_funding]
+from [dbo].[startup_funding] Where Industry_Vertical is not null
 
 Group by Industry_Vertical 
 
