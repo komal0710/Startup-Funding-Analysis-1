@@ -107,7 +107,7 @@ GO
     <td align="center"><a href="https://www.linkedin.com/in/komal-dhyani/"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQGp0wW5xh7fuA/profile-displayphoto-shrink_200_200/0/1619702786501?e=1626912000&v=beta&t=fPLm79yD22TPw3bYncTLmPiUaeYp9-JbjJkQ68mJc-M" width="100px;" alt=""/><br /><sub><b>Komal Dhyani</b></sub></a><br /></td>
     <td align="center"><a href="https://www.linkedin.com/in/komal-tirthani-114a81179/"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQHAPY6Y4fKU0w/profile-displayphoto-shrink_200_200/0/1597092716698?e=1626912000&v=beta&t=hDNhogHYQZcciwiB6MFVAm-ELlmLSRJxx0lQwJxsnpY"  width="100px;" alt=""/><br /><sub><b>Komal Tirthani</b></sub></a><br /></td>
     <td align="center"><a href="https://www.linkedin.com/in/lalatendu-padhi-41b560195/"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQEnOYjQaNB3rQ/profile-displayphoto-shrink_200_200/0/1605682139315?e=1626912000&v=beta&t=4p8INeqZ3XmvJKtMFnGw0ngbWzzijhQ_zbJYOriqFsA" width="100px;" alt=""/><br /><sub><b>Lalatendu Padhi</b></sub></a><br /></td>
-    <td align="center"><a href="https://www.linkedin.com/in/yogesh-kumar-287137203/"><img src="https://avatars.githubusercontent.com/u/83998436?v=4" width="100px;" alt=""/><br /><sub><b>Yogesh Kumar</b></sub></a><br /></td>
+    <td align="center"><a href="https://www.linkedin.com/in/yogesh-kumar-287137203/"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQErF6sniOMjDA/profile-displayphoto-shrink_200_200/0/1621569365191?e=1626912000&v=beta&t=_JNVjaS9C9vkcv8NqYqwWNshLOqeRW6ciTI0hTgxulk" width="100px;" alt=""/><br /><sub><b>Yogesh Kumar</b></sub></a><br /></td>
   </tr>
  </table>
 
