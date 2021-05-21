@@ -64,11 +64,10 @@ The followings are the scope for this case study:
 ### Various sectors or industries which are more favoured by investors for funding
 
 ``` JS
-select * from [dbo].[startup_funding]
-Select  Industry_Vertical, COUNT(*) as Frequency
-from [dbo].[startup_funding]
-Group by Industry_Vertical 
-Order by Frequency DESC
+SELECT  Industry_Vertical, COUNT(*) as Frequency
+FROM [dbo].[startup_funding]
+GROUP BY Industry_Vertical 
+ORDER BY Frequency DESC
 Go
 ```
 ## Goal_Statement_4
