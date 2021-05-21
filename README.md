@@ -16,12 +16,12 @@ Kaggle: [Indian Startup Funding](https://www.kaggle.com/sudalairajkumar/indian-s
 ## Scope of the Analysis
 The followings are the scope for this case study:
 
-* [The important investor of the Indian ecosystem](#Goal_Statement_1)
-* [The pattern of fundings does start up generally gets in India](#Goal_Statement_2)
-* [Various sectors or industries which are more favoured by investors for funding](#Goal_Statement_3)
-* [How funding has changed overtime](#Goal_Statement_4)
-* [Angel Investors of India](#Goal_Statement_5)
-* [Max and Min investment out of all start-ups in India](#Goal_Statement_6)
+* [The important investor of the Indian ecosystem](##Goal_Statement_1)
+* [The pattern of fundings does start up generally gets in India](##Goal_Statement_2)
+* [Various sectors or industries which are more favoured by investors for funding](##Goal_Statement_3)
+* [How funding has changed overtime](##Goal_Statement_4)
+* [Angel Investors of India](##Goal_Statement_5)
+* [Max and Min investment out of all start-ups in India](##Goal_Statement_6)
 
 ## Dataset
 **The dataset consisted of a CSV file:**
@@ -54,7 +54,17 @@ The followings are the scope for this case study:
   * Drop Sr No & Remarks column as it unnecessary and contains high number of missing values
   * Check for all names of investors and rename duplicates if any ('undisclosed investor' to 'Undisclosed Investors')
 
+## Goal_Statement_1
 
+## Goal_Statement_2
+
+## Goal_Statement_3
+
+## Goal_Statement_4
+
+## Goal_Statement_5
+
+## Goal_Statement_6
 
 
 ## Contributors
