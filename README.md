@@ -58,7 +58,7 @@ The followings are the scope for this case study:
 ```
 ```
 ## Goal_Statement_2
-### The pattern of fundings does start up generally gets in India<br><br>
+### The pattern of fundings does start up generally gets in India<br>
 ``` JS
 SELECT InvestmentType,COUNT(InvestmentType) AS Total_Investment 
 FROM [dbo].[startup_funding]
@@ -66,7 +66,7 @@ GROUP BY InvestmentType
 ORDER BY Total_Investment DESC;
 go
 ```
-
+![Graph 2](https://github.com/Rajiv-Nayan/Startup-Funding-Analysis/blob/main/Assets/Goal%202.jpg)
 
 ## Goal_Statement_3
 ### Various sectors or industries which are more favoured by investors for funding<br>
