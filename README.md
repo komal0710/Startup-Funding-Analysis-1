@@ -61,8 +61,7 @@ The followings are the scope for this case study:
 ```
 ```
 ## Goal_Statement_3
-### Various sectors or industries which are more favoured by investors for funding
-
+### Various sectors or industries which are more favoured by investors for funding<br>
 ``` JS
 SELECT  Industry_Vertical, COUNT(*) as Frequency
 FROM [dbo].[startup_funding]
