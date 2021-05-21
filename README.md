@@ -61,7 +61,15 @@ The followings are the scope for this case study:
 ```
 ```
 ## Goal_Statement_3
-```
+### Various sectors or industries which are more favoured by investors for funding
+
+``` JS
+select * from [dbo].[startup_funding]
+Select  Industry_Vertical, COUNT(*) as Frequency
+from [dbo].[startup_funding]
+Group by Industry_Vertical 
+Order by Frequency DESC
+Go
 ```
 ## Goal_Statement_4
 ### How funding has changed overtime
@@ -70,7 +78,7 @@ The followings are the scope for this case study:
 
 ``` JS
 SELECT CAST(YEAR(Date_yyyy_mm_dd) as NVARCHAR)+'-'+CAST(MONTH(Date_yyyy_mm_dd) as NVARCHAR) AS [Monthwise],SUM(Amount_in_USD) AS Total_Amount 
-FROM startup_funding 
+FROM [dbo].[startup_funding] 
 GROUP BY YEAR(Date_yyyy_mm_dd),MONTH(Date_yyyy_mm_dd) 
 ORDER BY YEAR(Date_yyyy_mm_dd),MONTH(Date_yyyy_mm_dd)
 GO
@@ -79,7 +87,7 @@ GO
 
 ``` JS
 SELECT YEAR(Date_yyyy_mm_dd) AS [Yearwise],  SUM(Amount_in_USD) AS Total_Amount 
-FROM startup_funding 
+FROM [dbo].[startup_funding]
 GROUP BY YEAR(Date_yyyy_mm_dd) 
 ORDER BY YEAR(Date_yyyy_mm_dd)
 GO
