@@ -72,7 +72,7 @@ Go
 ## Goal_Statement_4
 ### How funding has changed overtime
 
-##### * Monthwise
+* **Monthwise**
 
 ``` JS
 SELECT CAST(YEAR(Date_yyyy_mm_dd) as NVARCHAR)+'-'+CAST(MONTH(Date_yyyy_mm_dd) as NVARCHAR) AS [Monthwise],SUM(Amount_in_USD) AS Total_Amount 
@@ -81,7 +81,7 @@ GROUP BY YEAR(Date_yyyy_mm_dd),MONTH(Date_yyyy_mm_dd)
 ORDER BY YEAR(Date_yyyy_mm_dd),MONTH(Date_yyyy_mm_dd)
 GO
 ```
-##### * Yearwise
+* **Yearwise**
 
 ``` JS
 SELECT YEAR(Date_yyyy_mm_dd) AS [Yearwise],  SUM(Amount_in_USD) AS Total_Amount 
