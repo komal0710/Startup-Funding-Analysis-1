@@ -67,7 +67,8 @@ The followings are the scope for this case study:
 
 **MONTHWISE**
 
-```SELECT CAST(YEAR(Date_yyyy_mm_dd) as NVARCHAR)+'-'+CAST(MONTH(Date_yyyy_mm_dd) as NVARCHAR) AS [Monthwise],SUM(Amount_in_USD) AS Total_Amount 
+``` JS
+SELECT CAST(YEAR(Date_yyyy_mm_dd) as NVARCHAR)+'-'+CAST(MONTH(Date_yyyy_mm_dd) as NVARCHAR) AS [Monthwise],SUM(Amount_in_USD) AS Total_Amount 
 FROM startup_funding 
 GROUP BY YEAR(Date_yyyy_mm_dd),MONTH(Date_yyyy_mm_dd) 
 ORDER BY YEAR(Date_yyyy_mm_dd),MONTH(Date_yyyy_mm_dd)
