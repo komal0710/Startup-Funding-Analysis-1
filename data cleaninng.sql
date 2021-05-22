@@ -82,3 +82,28 @@ go
 
 update startup_funding set Startup_Name=REPLACE(Startup_Name,'.com','')
 go
+
+
+-- Komal Dhyani Cleaning:
+--Investors Name Updation
+  
+  Update dbo.startup_funding
+  SET Investors_Name = REPLACE('Undisclosed Investor', 'Investor','Investors')
+  where Investors_Name like 'Undisclosed%'
+  
+  Select Investors_Name from dbo.startup_funding
+  where Investors_Name like 'Undisclosed%'  
+  
+--Investors Type Updation
+
+  Update dbo.startup_funding
+  SET InvestmentType = REPLACE('Seed Funding Round', 'Round',' ') 
+  where InvestmentType like  'Seed%'  
+
+  Update dbo.startup_funding
+  SET InvestmentType = REPLACE('Seed Funding', 'Seed','Angel ') 
+  where InvestmentType like  'Seed%'
+  
+  Update dbo.startup_funding
+  SET InvestmentType = REPLACE('Angel Funding Round', 'Round',' ') 
+  where InvestmentType like  'Angel%'
