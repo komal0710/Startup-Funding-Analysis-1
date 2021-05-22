@@ -12,8 +12,8 @@
 									('Seattle/Banglore'),('SFO/Banglore'),('Singapore'),('Tulangan'),('USA'),('US')
 
 
-  SELECT TOP(5) Investors_Name,SUM(Amount_in_USD) AS Total_Amount
+ SELECT TOP(5) Investors_Name,SUM(Amount_in_USD) AS Total_Amount
  FROM dbo.startup_funding
  WHERE City_Location NOT IN (Select * from @tablevariable)
  GROUP BY Investors_Name having Investors_Name not in ('NULL')
-  ORDER BY Total_Amount DESC
+ ORDER BY Total_Amount DESC
